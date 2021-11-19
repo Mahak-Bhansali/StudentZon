@@ -1,0 +1,133 @@
+.home-container
+{
+    padding-top: 50px;
+}
+
+.feed-username
+{
+    display: inline;
+    color: orange;
+}
+
+.home-card
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    width: 70%;
+    position: relative;
+    margin-right: 15%;
+    /* background-color: rgb(236, 22, 22); */
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgb(2, 81, 253);
+}
+
+.home-card-title
+{
+    position: absolute;
+    top: 20px;
+    left: 80px;     /*10*/
+
+}
+
+.feed-time
+{
+    position: absolute;
+    top: 55px;
+    left: 90px;     /*20*/
+    font-size: 20px;
+    font-style: italic;
+}
+
+.home-prod-desc-card-text 
+{
+    position: absolute;
+    top: 180px;
+    left: 20px;     /*20*/
+    right:20px;
+    height: 150px;
+    white-space: pre-wrap;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.home-req-desc-card-text 
+{
+    position: absolute;
+    top: 170px;
+    left: 20px;     /*20*/
+    height: 150px;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    right:20px;
+    font-size:20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.home-price-card-text 
+{
+    position: absolute;
+    top: 120px;
+    left: 20px;     /*20*/
+    height: 150px;
+    white-space: pre-wrap;
+    color: rgb(23, 0, 128);
+}
+
+.desc-req-container
+{
+    height: 150px;
+    width: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 5px;
+}
+
+.desc-prod-container
+{
+    height: 250px;
+    width: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 5px;
+}
+
+.req-img
+{
+    position: absolute;
+    height: 50px;
+    width: auto;
+    left: 25px;
+    top: 32px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(bg-sample.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.card-title-color {
+    
+    height:max-content;
+}
+
+.card-title-color1 {
+    background-color: rgb(115, 205, 233);
+    height:max-content;
+}
+.card{
+    
+    min-height: 250px;
+    border-radius: 30px;
+    border-color: aqua;
+    box-shadow: 0 4px 8px 0 rgb(2 81 253);
+}
+
+.card-text{
+ 
+    height: auto;
+
+}
+
