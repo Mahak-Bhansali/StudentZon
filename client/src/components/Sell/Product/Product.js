@@ -292,7 +292,7 @@ class Product extends Component {
                   {/* Comments Modal */}
                   <div className="modal interested-users-modal fade" id={"commentsModal" + this.props.item._id} tabIndex="-1" role="dialog" aria-labelledby="commentModalLabel" aria-hidden="true">
                     <div className="modal-dialog interestDialog" role="document">
-                      <div className="modal-content" style={{ width: "150%" }}>
+                      <div className="modal-content" style={{ width: "100%" }}>
                         <div className="modal-header">
                           <h5 className="modal-title" id="commentModalLabel">Comments</h5>
                           <button type="button" className="close interest" data-dismiss="modal" aria-label="Close">
