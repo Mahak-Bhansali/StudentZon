@@ -32,7 +32,7 @@ class Button extends Component {
     return (
       <div className="container">
         <button className="btn btn-primary btn-xs new-item-btn box-shadow--8dp" onClick={this.onOpenModal} data-toggle="modal" data-target="#uploaditem">
-        <span className="dash-font">Sell Anything</span>
+        <span className="dash-font dash-font1">Sell Anything</span>
         </button>
 
         <div className="modal fade" id="uploaditem" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -77,7 +77,7 @@ class Products extends Component {
                 <Product update={this.updateStatus} key={this.state.items[idx*2+1]._id} item={this.state.items[idx*2+1]} id={this.state.items[idx*2+1]._id} />
               </div>):(' ')}
             </div> )})): (
-        <h2 style={{ marginTop: '15px', textAlign: 'center' }}>No items available to display</h2>
+        <h4 style={{ marginTop: '15px', textAlign: 'center' }}>No items available to display</h4>
       );
     const header = this.state.items.length > 0 ? (
       <div className="container">
