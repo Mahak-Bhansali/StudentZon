@@ -21,16 +21,17 @@ class User extends Component {
             <div className="nav flex-column nav-pills tabmenu vline" id="v-pills-tab" role="tablist" aria-orientation="vertical">
               {this.props.user ? (
                 this.props.user.username == 'admin' ? (
-                  <a className="nav-link user" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="false"><img src="https://img.icons8.com/ultraviolet/40/000000/combo-chart.png" /> Dashboard</a>
-                ) : (' ')
-              ) : (' ')}
-              <a className="nav-link user" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="https://img.icons8.com/color/48/000000/wish-list.png" />  My Wish List</a>
-              <a className="nav-link user" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="https://img.icons8.com/color/48/000000/order-history.png" />  My Requirements</a>
-              <a className="nav-link user" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="https://img.icons8.com/office/40/000000/re-enter-pincode.png" />  Change Password</a>
-              <a className="nav-link user" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="https://img.icons8.com/color/48/000000/settings.png" />  Account Settings</a>
-              {this.props.user ? (
-                this.props.user.username == 'admin' ? (
-                  <a className="nav-link user" id="v-pills-category-tab" data-toggle="pill" href="#v-pills-category" role="tab" aria-controls="v-pills-category" aria-selected="false"><img src="https://img.icons8.com/dusk/40/000000/add-rule.png" /> Add Category</a>
+                  <a className="nav-link user" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="false"><img src="https://img.icons8.com/ultraviolet/40/000000/combo-chart.png" /> <span className="dash-font"> Dashboard</span></a>
+                  ) : (' ')
+                ) : (' ')}
+                <a className="nav-link user" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="https://img.icons8.com/color/48/000000/wish-list.png" /> 
+                <span className="dash-font"> My Wish List</span></a>
+                <a className="nav-link user" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="https://img.icons8.com/color/48/000000/order-history.png" /> <span className="dash-font"> My Requirements</span></a>
+                <a className="nav-link user" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="https://img.icons8.com/office/40/000000/re-enter-pincode.png" />  <span className="dash-font">Change Password</span></a>
+                <a className="nav-link user" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><img src="https://img.icons8.com/color/48/000000/settings.png" /> <span className="dash-font"> Account Settings</span></a>
+                {this.props.user ? (
+                  this.props.user.username == 'admin' ? (
+                    <a className="nav-link user" id="v-pills-category-tab" data-toggle="pill" href="#v-pills-category" role="tab" aria-controls="v-pills-category" aria-selected="false"><img src="https://img.icons8.com/dusk/40/000000/add-rule.png" /> <span className="dash-font">Add Category</span></a>
                 ) : (' ')
               ) : (' ')}
             </div>
