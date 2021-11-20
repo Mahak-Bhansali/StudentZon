@@ -40,7 +40,7 @@ class ChangePassword extends Component{
                     {errblk}
                 </div>
                 <div style={{marginRight:"50px",marginLeft:"50px",marginBottom:"10px"}}>
-                    <h1 id="changepassword">Change Password</h1>
+                    <h3 id="changepassword">Change Password</h3>
                     <form  onSubmit={this.handleSubmit}>
                         <div className="form-group" id="prof1">
                             <label htmlFor="Currpassword" >Current Password</label>

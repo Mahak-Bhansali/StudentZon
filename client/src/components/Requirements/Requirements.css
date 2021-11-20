@@ -94,15 +94,20 @@
 .new-item-btn
 {
     font-size: 1.5rem;
-    width: 4rem;
+    width: 10rem;
 	z-index: 1;
     background-color: #0460fc;
     color: white;
     border-color: rgb(4, 96, 252);
-    border-radius: 12px;
-    margin-top: 0%;
+    border-radius: 25px;
+    margin-top: 3%;
+    margin-left: 650px;
+    height: 2rem;
     bottom: 10%;
     right: 90%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .new-item-btn:hover
