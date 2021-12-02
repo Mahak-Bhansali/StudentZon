@@ -93,7 +93,7 @@
 
 .new-item-btn
 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     width: 8rem;
 	z-index: 1;
     background-color: #0460fc;

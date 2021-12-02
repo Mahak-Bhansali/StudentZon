@@ -120,7 +120,7 @@ class Item extends Component {
 	
 	componentDidMount() {
 		const interestedUsers = this.props.item.interestedUsers;
-		let status = false;
+		let status = true;
 		interestedUsers.forEach(user => {
 			if (user.username === this.props.user.username) {
 				status = user.status;
